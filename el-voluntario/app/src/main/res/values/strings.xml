@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">El Voluntario</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_place_api">AIzaSyC6QI5lyy4WFEjWiQgDR5XjtO0vpY3KzkM</string>
+
+    <!-- ACTIVITY INFO -->
+    <string name="icon_email">Correo electronico</string>
+    <string name="icon_contact">Numero de contacto</string>
+    <string name="icon_user">Persona encargada</string>
+
+    <!-- ACTIVITY CREATE FOUNDATION -->
+    <string name="button_save">Guardar</string>
+    <string name="button_cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tumblr:remember:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/remember-1.0.0.aar/954da81550e27d9d8f359640529bf513/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/remember-1.0.0.aar/954da81550e27d9d8f359640529bf513/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tumblr/remember/1.0.0/932d7e5d6d98ec6d9070a4b0c328b04424c60467/remember-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:background="@color/splash">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout1"
+        >
+        <ImageView
+            android:id="@+id/imgSplash"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/servicio"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Usuarios"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/login"
+        android:orientation="vertical"
+        android:id="@+id/loginLayout"
+        android:padding="30dp"
+        android:layout_marginTop="20dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textUserR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@android:color/white"
+                />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:backgroundTint="@android:color/white"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/contraseñaR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Repetir Contraseña"
+                android:inputType="textPassword"
+                android:backgroundTint="@android:color/white"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/shadow"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Registrarse"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@null"
+            android:layout_marginTop="20dp"
+            android:text="Cancelar"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+</RelativeLayout>
